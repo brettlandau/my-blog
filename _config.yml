@@ -2,8 +2,8 @@ title: "Brett Landau's Blog"
 author: "Brett Landau"
 email: "brett@landau.xyz"
 description: "My personal blog."
-baseurl: "/my-blog"
-url: "https://brettlandau.github.io"
+baseurl: ""
+url: "https://brett.landau.xyz"
 
 # No theme, we are using custom layout
 theme:
