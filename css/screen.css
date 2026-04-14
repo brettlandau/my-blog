@@ -272,3 +272,37 @@ ul.posts span {
   text-align: center;
   min-height: 1.5em;
 }
+
+/*****************************************************************************/
+/*
+/* Mobile Responsive Overrides
+/*
+/*****************************************************************************/
+
+@media screen and (max-width: 600px) {
+  .site {
+    font-size: 100%;
+    width: 90%;
+    margin: 2em auto;
+  }
+
+  /* Ensure images do not overflow on small screens */
+  #post img {
+    max-width: 100%;
+  }
+
+  /* Stack footer items for better readability */
+  .site .footer .contact {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .site .footer .rss {
+    float: none;
+    margin-top: 0;
+    text-align: center;
+    display: block;
+  }
+}
