@@ -1,0 +1,10 @@
+title: "Brett Landau's Blog"
+author: "Brett Landau"
+email: "brett@landau.xyz"
+description: "My personal blog."
+baseurl: ""
+url: ""
+
+# No theme, we are using custom layout
+theme:
+plugins: []

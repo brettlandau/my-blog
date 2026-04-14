@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="author" content="{{ site.author }}" />
+
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="{{ '/css/syntax.css' | relative_url }}" type="text/css" />
+
+  <!-- Homepage CSS -->
+  <link rel="stylesheet" href="{{ '/css/screen.css' | relative_url }}" type="text/css" media="screen, projection" />
+</head>
+
+<body>
+  <div class="site">
+    <div class="title">
+      {{ site.title }}
+      <a class="extra" href="{{ '/' | relative_url }}">home</a>
+    </div>
+
+    {{ content }}
+
+    <div class="footer">
+      <div class="contact">
+        <p>
+          {{ site.email }}
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
